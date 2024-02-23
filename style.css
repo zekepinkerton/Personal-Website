@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(0, 1%, 35%);
+    overflow: hidden;
+}
+
+/* h1{
+    color: rgb(255, 0, 179);
+    font-size: 100px;
+    text-align: center;
+}  */
+
+/* Navigation Bar ///////////////////////////////*/
+
+nav.header {
+    list-style-type: none;
+    display: flex; /* Use Flexbox */
+    justify-content: space-between; /* Items are distributed with space between them */
+    margin: 0;
+    padding: 0;  
+}
+
+nav.header ul {
+    list-style-type: none;
+    background-color: hsl(0, 0%, 0%); /* Dark background color */
+}
+
+nav.header li {
+    display: inline-block;
+}
+
+nav.header li a {
+    display: block;
+    color: white; /* Text color */
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav.header li a:hover {
+    background-color: #ffffff; /* Background color on hover */
+    color: black; /* Text color on hover */
+}
+
+/* Home Section //////////////////////////////////////////////*/
+
+section.hMain {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+label.hLabel {
+    text-align: center;
+    font-size: 24px; /* Larger font size */
+    color: #ffffff; /* Text color */
+}
+
+p.mainBody {
+    font-size: 16px; /* Regular font size */
+    color: #ffffff; /* Text color */
+}
+
+.home-head {
+    position: relative;
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: normal;
+    width: fit-content;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fafafa;
+    font-weight: 300;
+}
+
+/* About page styling -------------------------------------*/
+.container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+.description {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%; 
+    padding: 20px;
+}
+
+/* Skills page styling----------------------------------------*/
+.skill-container {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+}
+
+.skills-list {
+    list-style: none; /* Remove default list styles */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 20px; /* Spacing between items */
+}
+
+.skills-list li {
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+}
+
+.skills-list img {
+    max-width: 100px; /* Adjust the maximum width of the images */
+}
+/* Project page-----------------------------------------------------*/
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project h2 {
+    font-size: 20px;
+}
+
+.project p {
+    margin-bottom: 10px;
+}
+
+.project a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.project a:hover {
+    background-color: #0056b3;
+}
+
+
+/* Contact page-----------------------------------------------------*/
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    background-color: hsl(0, 1%, 35%);
+    color: rgb(255, 255, 255);
+
+}
+
+.contact-form h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Footer ---------------------------------------------------------*/
+div.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: hsl(0, 0%, 0%); /* Dark background color */
+    color: white; /* Text color */
+    padding: 10px;
+    text-align: center;
+}
