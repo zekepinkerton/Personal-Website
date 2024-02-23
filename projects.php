@@ -5,9 +5,11 @@
         <title>My Projects</title>
         <link rel = "stylesheet" href = "style.css">
         <script src="https://unpkg.com/htmx.org@1.9.10"></script>
+        <link rel="icon" href="https://raw.githubusercontent.com/zekepinkerton/Personal-Website/main/favicon.ico?token=GHSAT0AAAAAACMSBDYZAF2KZHREZP2STJY6ZOX7BGQ" type="image/x-icon">
     </head>
     <body>
         <div hx-get = "header.html" hx-swap="outerHTML" hx-trigger="load"> </div>
+        <img src="pictures/logopic.png" alt="Your Logo" class="logo">
         <div class="project">
             <h2>MineWalker</h2>
             <p>Description of Project 1 goes here...</p>

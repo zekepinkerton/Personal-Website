@@ -48,6 +48,16 @@ nav.header li a:hover {
     color: black; /* Text color on hover */
 }
 
+/*logo ----------------------------------------------------------*/
+.logo {
+    position: absolute;
+    top: 20px; /* Adjust as needed */
+    right: 20px; /* Adjust to position the logo on the right side */
+    width: 50px; /* Adjust the width of your logo */
+    height: auto; /* Maintain aspect ratio */
+    z-index: 1000; /* Ensure logo is above other content */
+}
+
 /* Home Section //////////////////////////////////////////////*/
 
 section.hMain {
@@ -67,32 +77,33 @@ p.mainBody {
 }
 
 .home-head {
-    position: relative;
-    align-self: center;
-    justify-self: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    line-height: normal;
-    width: fit-content;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    color: #fafafa;
-    font-weight: 300;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%; /* Ensure the container takes up the full width of the page */
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
+.home-name{
+    color: #75e5f1;
 }
 
 /* About page styling -------------------------------------*/
-.container {
+.image-container1 {
     display: flex;
-    align-items: center; 
-    justify-content: space-between; 
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px; /* Move the container down by 20 pixels */
+    margin-left: 300px; /* Move the container to the right */
 }
 
 .description {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 30%; /* Position from the middle vertically */
+    right: 200px; /* Position from the left edge */
     width: 50%; 
     padding: 20px;
 }

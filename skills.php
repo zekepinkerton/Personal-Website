@@ -6,9 +6,11 @@
         <title>Skills</title>
         <link rel = "stylesheet" href = "style.css">
         <script src="https://unpkg.com/htmx.org@1.9.10"></script>
+        <link rel="icon" href="https://raw.githubusercontent.com/zekepinkerton/Personal-Website/main/favicon.ico?token=GHSAT0AAAAAACMSBDYZAF2KZHREZP2STJY6ZOX7BGQ" type="image/x-icon">
     </head>
     <body>
         <div hx-get = "header.html" hx-swap="outerHTML" hx-trigger="load"> </div>
+        <img src="pictures/logopic.png" alt="Your Logo" class="logo">
             <div class="skill-container">
                 <ul class="skills-list">
                     <li><img src="pictures/htmlpic.png" alt="Language 1"></li>

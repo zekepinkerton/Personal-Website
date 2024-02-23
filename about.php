@@ -3,15 +3,15 @@
     <head>
         <link rel = "stylesheet" href = "style.css">
         <script src="https://unpkg.com/htmx.org@1.9.10"></script>
+        <link rel="icon" href="https://raw.githubusercontent.com/zekepinkerton/Personal-Website/main/favicon.ico?token=GHSAT0AAAAAACMSBDYZAF2KZHREZP2STJY6ZOX7BGQ" type="image/x-icon">
     </head>
     <body>
         <div hx-get = "header.html" hx-swap="outerHTML" hx-trigger="load"> </div>
+        <img src="pictures/logopic.png" alt="Your Logo" class="logo">
         <div class="image-container1">
             <img src="mexico1.png" alt="Image 1" style="max-width: 400px; max-height: 300px; maxposition: absolute; top: 0; left: 50%;">
         </div>
-            <div class="description" data-sr-id="12" style="visibility: visible; opacity: 1; 
-            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); 
-            transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.4s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.4s;">
+            <div class="description">
                 <h2>About</h2>
                 <p>Hello! I'm a passionate computer science student getting a degree in computer science.
                     I started my journey into Computer Science in Fall 2022, moving from a Pre med field in college. 
